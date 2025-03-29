@@ -229,7 +229,7 @@ public class MainMenu : MonoBehaviour
                 }
 
                 // Cierra el menú si no hay otras ventanas activas
-                if (!itemWindow.activeInHierarchy && !equipWindow.activeInHierarchy && !skillsWindow.activeInHierarchy && !statusWindow.activeInHierarchy && !loadGame.activeInHierarchy && !quitPrompt.activeInHierarchy)
+                if (!itemWindow.activeInHierarchy && !equipWindow.activeInHierarchy && !skillsWindow.activeInHierarchy && !statusWindow.activeInHierarchy && !quitPrompt.activeInHierarchy)  // && !loadGame.activeInHierarchy)
                 {
                     if (!SaveData.instance.saveMenu.activeInHierarchy)  // Si el menú de guardar no está activo, cierra el menú
                     {
@@ -257,23 +257,23 @@ public class MainMenu : MonoBehaviour
                 }
 
                 // Si el mensaje de "cargar juego" está activo, lo oculta y habilita los botones del menú
-                if (LoadGame.activeInHierarchy)
-                {
-                    LoadGame.SetActive(false);  // Oculta el mensaje de "cargar juego"
+                //if (LoadGame.activeInHierarchy)
+                //{
+                //    LoadGame.SetActive(false);  // Oculta el mensaje de "cargar juego"
 
-                    // Rehabilita los botones que se deshabilitaron
-                    item.interactable = true;
-                    equip.interactable = true;
-                    skills.interactable = true;
-                    status.interactable = true;
-                    load.interactable = true;
-                    close.interactable = true;
-                    quitNo.interactable = true;
+                //    // Rehabilita los botones que se deshabilitaron
+                //    item.interactable = true;
+                //    equip.interactable = true;
+                //    skills.interactable = true;
+                //    status.interactable = true;
+                //    load.interactable = true;
+                //    close.interactable = true;
+                //    quitNo.interactable = true;
 
-                    // Selecciona el primer botón si no es móvil
-                    btn = item;
-                    SelectFirstButton();  // Asegura que el primer botón sea el seleccionado
-                }
+                //    // Selecciona el primer botón si no es móvil
+                //    btn = item;
+                //    SelectFirstButton();  // Asegura que el primer botón sea el seleccionado
+                //}
 
                 // Si la ventana de "estado" está abierta, la cierra
                 if (statusWindow.activeInHierarchy)
@@ -281,9 +281,9 @@ public class MainMenu : MonoBehaviour
                     statusWindow.SetActive(false);  // Cierra la ventana de estado
 
                     // Desactiva los personajes en la ventana de estado
-                    statusMenuCharacterSlots[0].SetActive(false);
-                    statusMenuCharacterSlots[1].SetActive(false);
-                    statusMenuCharacterSlots[2].SetActive(false);
+                    //statusMenuCharacterSlots[0].SetActive(false);
+                    //statusMenuCharacterSlots[1].SetActive(false);
+                    //statusMenuCharacterSlots[2].SetActive(false);
                 }
             }
         }
