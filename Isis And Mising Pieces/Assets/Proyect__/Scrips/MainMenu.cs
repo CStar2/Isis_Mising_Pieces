@@ -11,7 +11,10 @@ public class MainMenu : MonoBehaviour
     public static MainMenu instance;
 
     [Header("Inicialización")]
+
     // Variables para los componentes de UI que se usan en este menú
+    //public Button btn;
+   
     public Text skillDescription;  // Descripción de la habilidad seleccionada
     public Image itemSprite;  // Imagen del item seleccionado
     public Image equipItemSprite;  // Imagen del equipo seleccionado
@@ -73,6 +76,14 @@ public class MainMenu : MonoBehaviour
     {
         menu.SetActive(false);  // Oculta el menú principal
     }
+
+    public void CloseMenu()
+    {
+        menu.SetActive(false);
+        loadPrompt.SetActive(true);  // Oculta el mensaje de carga
+        quitPrompt.SetActive(true);
+    }
+
 
     // Método para mostrar la ventana de ítems
     public void ShowItemWindow()
@@ -220,7 +231,7 @@ public class MainMenu : MonoBehaviour
                 // Cierra el menú si no hay otras ventanas activas
                 if (!itemWindow.activeInHierarchy && !equipWindow.activeInHierarchy && !skillsWindow.activeInHierarchy && !statusWindow.activeInHierarchy && !loadGame.activeInHierarchy && !quitPrompt.activeInHierarchy)
                 {
-                    if (!Save.instance.saveMenu.activeInHierarchy)  // Si el menú de guardar no está activo, cierra el menú
+                    if (!SaveData.instance.saveMenu.activeInHierarchy)  // Si el menú de guardar no está activo, cierra el menú
                     {
                         CloseMenu();
                     }
@@ -238,7 +249,7 @@ public class MainMenu : MonoBehaviour
                     status.interactable = true;
                     load.interactable = true;
                     close.interactable = true;
-                    quit.interactable = true;
+                    quitNo.interactable = true;
 
                     // Selecciona el primer botón si no es móvil
                     btn = item;
@@ -246,9 +257,9 @@ public class MainMenu : MonoBehaviour
                 }
 
                 // Si el mensaje de "cargar juego" está activo, lo oculta y habilita los botones del menú
-                if (loadGame.activeInHierarchy)
+                if (LoadGame.activeInHierarchy)
                 {
-                    loadGame.SetActive(false);  // Oculta el mensaje de "cargar juego"
+                    LoadGame.SetActive(false);  // Oculta el mensaje de "cargar juego"
 
                     // Rehabilita los botones que se deshabilitaron
                     item.interactable = true;
@@ -257,7 +268,7 @@ public class MainMenu : MonoBehaviour
                     status.interactable = true;
                     load.interactable = true;
                     close.interactable = true;
-                    quit.interactable = true;
+                    quitNo.interactable = true;
 
                     // Selecciona el primer botón si no es móvil
                     btn = item;

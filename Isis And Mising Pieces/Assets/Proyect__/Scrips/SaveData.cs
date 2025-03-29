@@ -13,6 +13,7 @@ public class SaveData : MonoBehaviour
     public GameObject savePrompt;    // Confirmación de guardado
     public GameObject saveSlots;     // Ranuras de guardado
     public GameObject saving;        // Mensaje de guardado en curso
+   // public GameObject GameMenu;
     public Text savingText;          // Texto de guardado
     public int currentSaveId;        // ID de la ranura de guardado actual
 
