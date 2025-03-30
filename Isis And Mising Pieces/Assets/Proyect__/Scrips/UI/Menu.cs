@@ -5,38 +5,41 @@ using System;
 
 public class Menu : MonoBehaviour
 {
-    [SerializeField] private Button NewGameButton;
-    //[SerializeField] private Button ContinueButton;
+
     [SerializeField] private Button QuitButton;
 
     public GameObject ContinueButton;
     public GameObject Buttons;
+    public GameObject Data;
+    public GameObject GameData;
 
     private void Start()
     {
         QuitButton.onClick.AddListener(QuitGame);
-        //NewGameButton.onClick.AddListener(SceneManager.LoadScene());
-    }
-
-    private void StartGame()
-    {
-        throw new NotImplementedException();
+        
     }
 
     public void StartGame(string sceneName)
     {
-        SceneManager.LoadScene(sceneName);
+        
+        Buttons.SetActive(false);
+        Data.SetActive(true);
+
         
     }
 
     public void ManageGames(string sceneName)
     {
         Buttons.SetActive(false);
+        GameData.SetActive(true);
     }
 
-
-
-
+    public void Back()
+    {
+        Buttons.SetActive(true);
+        Data.SetActive(false);
+        GameData.SetActive(false);
+    }
 
     private void QuitGame()
     {

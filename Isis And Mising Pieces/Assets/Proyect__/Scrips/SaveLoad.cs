@@ -57,7 +57,7 @@ public class SaveLoad : MonoBehaviour
             // PlayerPrefs.SetString("SaveName", saveNameInput.text); //las comillas es el nombre de la variable para guardar el texto
             var saveSlot = new PlayerData()
             {
-                position = PlayerTransform.position,
+               // position = PlayerTransform.position,
                 SaveName = saveNameInput.text,
             };
             var saveSlotJSON = JsonUtility.ToJson(saveSlot);
