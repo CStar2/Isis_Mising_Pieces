@@ -25,8 +25,13 @@ public class Menu : MonoBehaviour
         Buttons.SetActive(false);
         Data.SetActive(true);
 
-        
     }
+
+    public void play(string sceneName)
+    {
+        SceneManager.LoadScene(sceneName);
+    }
+
 
     public void ManageGames(string sceneName)
     {
