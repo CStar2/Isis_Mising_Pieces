@@ -1,0 +1,485 @@
+fileFormatVersion: 2
+guid: 6fdac9573e3334849b6894c77f41d862
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Isis_Ataques_Da\xF1o_Normales_0"
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 82
+        width: 24
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c68c6ec619a48f24590d9fc258750514
+      internalID: 1094671593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Isis_Ataques_Da\xF1o_Normales_1"
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 82
+        width: 24
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cad25553a6761443a8a6312b9f0b0a1
+      internalID: -908621712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Isis_Ataques_Da\xF1o_Normales_2"
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 82
+        width: 24
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fc0c2aec087b964ba3be8fd51429dd2
+      internalID: 1185516383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Isis_Ataques_Da\xF1o_Normales_3"
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 82
+        width: 24
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fa0d4de12ac96448915bc8408911631
+      internalID: -259437724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Isis_Ataques_Da\xF1o_Normales_4"
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 82
+        width: 24
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df332675686b90d45acfb6d3753e303d
+      internalID: -1342487639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Isis_Ataques_Da\xF1o_Normales_5"
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 82
+        width: 16
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97355c9fab491ba48915a3410c689cfa
+      internalID: -1528685489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Isis_Ataques_Da\xF1o_Normales_6"
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 82
+        width: 16
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c5c0452b72c88f4ab44a92199501cc8
+      internalID: 1987611019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Isis_Ataques_Da\xF1o_Normales_7"
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 82
+        width: 23
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8b373270784dae479c48c6ac20a3bdf
+      internalID: -615091924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Isis_Ataques_Da\xF1o_Normales_8"
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 82
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 156baa22759821e41a838163f25cad84
+      internalID: -2109187544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Isis_Ataques_Da\xF1o_Normales_9"
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 82
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d245ffc57ffca5c43b77d88f4ad09c05
+      internalID: 1971397045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Isis_Ataques_Da\xF1o_Normales_10"
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 82
+        width: 23
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50df0cc8825540240b5ef36cbbc90713
+      internalID: -404305254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Isis_Ataques_Da\xF1o_Normales_11"
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 82
+        width: 24
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94bd996c808928f47b09b30c79780cd7
+      internalID: 520200897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Isis_Ataques_Da\xF1o_Normales_12"
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 25
+        width: 16
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffbae42af93e0d94681ed7da92759848
+      internalID: 412869403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Isis_Ataques_Da\xF1o_Normales_13"
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 25
+        width: 16
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc6e39af4598aa047b2e2ba21a46f4d3
+      internalID: 1449918057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Isis_Ataques_Da\xF1o_Normales_14"
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 25
+        width: 24
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07b17fae3b04ec74594018409d4b3ffa
+      internalID: -1681992365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Isis_Ataques_Da\xF1o_Normales_15"
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 25
+        width: 35
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d1c93e76f995bb4e98ef283e41a6653
+      internalID: -875557558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: d29b881e01c71174c9886063fa066b00
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "Isis_Ataques_Da\xF1o_Normales_0": 1094671593
+      "Isis_Ataques_Da\xF1o_Normales_1": -908621712
+      "Isis_Ataques_Da\xF1o_Normales_10": -404305254
+      "Isis_Ataques_Da\xF1o_Normales_11": 520200897
+      "Isis_Ataques_Da\xF1o_Normales_12": 412869403
+      "Isis_Ataques_Da\xF1o_Normales_13": 1449918057
+      "Isis_Ataques_Da\xF1o_Normales_14": -1681992365
+      "Isis_Ataques_Da\xF1o_Normales_15": -875557558
+      "Isis_Ataques_Da\xF1o_Normales_2": 1185516383
+      "Isis_Ataques_Da\xF1o_Normales_3": -259437724
+      "Isis_Ataques_Da\xF1o_Normales_4": -1342487639
+      "Isis_Ataques_Da\xF1o_Normales_5": -1528685489
+      "Isis_Ataques_Da\xF1o_Normales_6": 1987611019
+      "Isis_Ataques_Da\xF1o_Normales_7": -615091924
+      "Isis_Ataques_Da\xF1o_Normales_8": -2109187544
+      "Isis_Ataques_Da\xF1o_Normales_9": 1971397045
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
