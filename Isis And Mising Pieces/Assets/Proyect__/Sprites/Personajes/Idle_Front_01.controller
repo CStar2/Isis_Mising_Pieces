@@ -1,6 +1,58 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1107 &-8765119225046577121
+--- !u!1102 &-5359970031679626413
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: perroIdleRigth3_4
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: df4d780c6b67f3a4da9b2b13bf28d58a, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
+--- !u!1102 &-5032859199026017684
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: perroIdleFrontAmgry
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: 45d788a05b9c5c84991be1ca3c14f4ab, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
+--- !u!1107 &-3603827791396731042
 AnimatorStateMachine:
   serializedVersion: 6
   m_ObjectHideFlags: 1
@@ -10,59 +62,56 @@ AnimatorStateMachine:
   m_Name: Base Layer
   m_ChildStates:
   - serializedVersion: 1
-    m_State: {fileID: -1653021767810036298}
-    m_Position: {x: 50, y: 370, z: 0}
+    m_State: {fileID: 3456844083454254466}
+    m_Position: {x: 280, y: 140, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: -1013693709028825622}
-    m_Position: {x: 300, y: 240, z: 0}
+    m_State: {fileID: 1524883208518017968}
+    m_Position: {x: 280, y: 190, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: 2419076074366321562}
-    m_Position: {x: 300, y: 290, z: 0}
+    m_State: {fileID: 3126804926201044567}
+    m_Position: {x: 280, y: 240, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: 444733109855566428}
-    m_Position: {x: 300, y: 340, z: 0}
+    m_State: {fileID: 626795592650100986}
+    m_Position: {x: 280, y: 290, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: -4849468498262787649}
-    m_Position: {x: 300, y: 390, z: 0}
+    m_State: {fileID: 8570149108103044863}
+    m_Position: {x: 280, y: 340, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: 7294106275726104941}
-    m_Position: {x: 300, y: 440, z: 0}
+    m_State: {fileID: 142709685261219497}
+    m_Position: {x: 280, y: 390, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: 314716127742126475}
-    m_Position: {x: 300, y: 490, z: 0}
+    m_State: {fileID: 2751590929471051570}
+    m_Position: {x: 490, y: 140, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: 4370201753095104456}
-    m_Position: {x: 510, y: 240, z: 0}
+    m_State: {fileID: 3394787688831230190}
+    m_Position: {x: 490, y: 190, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: 3705809180120664724}
-    m_Position: {x: 510, y: 290, z: 0}
+    m_State: {fileID: 1156960608987154776}
+    m_Position: {x: 490, y: 240, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: -710039075629638214}
-    m_Position: {x: 510, y: 340, z: 0}
+    m_State: {fileID: -5359970031679626413}
+    m_Position: {x: 490, y: 290, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: 8103498813304381099}
-    m_Position: {x: 510, y: 390, z: 0}
+    m_State: {fileID: 6894415269269406028}
+    m_Position: {x: 490, y: 340, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: -5959572875715798170}
-    m_Position: {x: 510, y: 440, z: 0}
+    m_State: {fileID: -375993797644040908}
+    m_Position: {x: 490, y: 390, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: -6003513238686976725}
-    m_Position: {x: 510, y: 490, z: 0}
+    m_State: {fileID: 6975412279364100941}
+    m_Position: {x: 700, y: 140, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: -3926876879359294543}
-    m_Position: {x: 720, y: 240, z: 0}
+    m_State: {fileID: 4681657870384510549}
+    m_Position: {x: 700, y: 190, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: -2400337153260638022}
-    m_Position: {x: 720, y: 290, z: 0}
+    m_State: {fileID: 252675983522369967}
+    m_Position: {x: 700, y: 240, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: 1275656837708691836}
-    m_Position: {x: 720, y: 340, z: 0}
+    m_State: {fileID: -117043270692615513}
+    m_Position: {x: 700, y: 290, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: 2805161457534970733}
-    m_Position: {x: 720, y: 390, z: 0}
-  - serializedVersion: 1
-    m_State: {fileID: 5039684905223054509}
-    m_Position: {x: 720, y: 440, z: 0}
+    m_State: {fileID: -5032859199026017684}
+    m_Position: {x: 700, y: 340, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
@@ -70,17 +119,17 @@ AnimatorStateMachine:
   m_StateMachineBehaviours: []
   m_AnyStatePosition: {x: 50, y: 20, z: 0}
   m_EntryPosition: {x: 50, y: 120, z: 0}
-  m_ExitPosition: {x: 800, y: 120, z: 0}
+  m_ExitPosition: {x: 370, y: 70, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
-  m_DefaultState: {fileID: -1653021767810036298}
---- !u!1102 &-6003513238686976725
+  m_DefaultState: {fileID: 3456844083454254466}
+--- !u!1102 &-375993797644040908
 AnimatorState:
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: AnubisIdleFrontAngry
+  m_Name: perroIdleLeft3_4
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -93,20 +142,20 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 708ea6abaea0afa4f9e1fc34b25b6e59, type: 2}
+  m_Motion: {fileID: 7400000, guid: 3029eb5bf951b544e8e35994c3316c81, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
---- !u!1102 &-5959572875715798170
+--- !u!1102 &-117043270692615513
 AnimatorState:
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: AnubisIdleFront
+  m_Name: perroIdleFront
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -119,163 +168,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 4a5665e24ed591c408a6303f780653d0, type: 2}
-  m_Tag: 
-  m_SpeedParameter: 
-  m_MirrorParameter: 
-  m_CycleOffsetParameter: 
-  m_TimeParameter: 
---- !u!1102 &-4849468498262787649
-AnimatorState:
-  serializedVersion: 6
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: AnubisFrontAttack
-  m_Speed: 1
-  m_CycleOffset: 0
-  m_Transitions: []
-  m_StateMachineBehaviours: []
-  m_Position: {x: 50, y: 50, z: 0}
-  m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
-  m_Mirror: 0
-  m_SpeedParameterActive: 0
-  m_MirrorParameterActive: 0
-  m_CycleOffsetParameterActive: 0
-  m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 09e0e1acdc8c29b4ca06657e737d4af6, type: 2}
-  m_Tag: 
-  m_SpeedParameter: 
-  m_MirrorParameter: 
-  m_CycleOffsetParameter: 
-  m_TimeParameter: 
---- !u!1102 &-3926876879359294543
-AnimatorState:
-  serializedVersion: 6
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: AnubisIdleLeft3_4
-  m_Speed: 1
-  m_CycleOffset: 0
-  m_Transitions: []
-  m_StateMachineBehaviours: []
-  m_Position: {x: 50, y: 50, z: 0}
-  m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
-  m_Mirror: 0
-  m_SpeedParameterActive: 0
-  m_MirrorParameterActive: 0
-  m_CycleOffsetParameterActive: 0
-  m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 74662c83151bc6e4284ee92488414cf9, type: 2}
-  m_Tag: 
-  m_SpeedParameter: 
-  m_MirrorParameter: 
-  m_CycleOffsetParameter: 
-  m_TimeParameter: 
---- !u!1102 &-2400337153260638022
-AnimatorState:
-  serializedVersion: 6
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: AnubisIdleLeft3_4Angry
-  m_Speed: 1
-  m_CycleOffset: 0
-  m_Transitions: []
-  m_StateMachineBehaviours: []
-  m_Position: {x: 50, y: 50, z: 0}
-  m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
-  m_Mirror: 0
-  m_SpeedParameterActive: 0
-  m_MirrorParameterActive: 0
-  m_CycleOffsetParameterActive: 0
-  m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 6c4de943e71f31f448733ba5d2b31508, type: 2}
-  m_Tag: 
-  m_SpeedParameter: 
-  m_MirrorParameter: 
-  m_CycleOffsetParameter: 
-  m_TimeParameter: 
---- !u!1102 &-1653021767810036298
-AnimatorState:
-  serializedVersion: 6
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: AnubisIdle
-  m_Speed: 1
-  m_CycleOffset: 0
-  m_Transitions: []
-  m_StateMachineBehaviours: []
-  m_Position: {x: 50, y: 50, z: 0}
-  m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
-  m_Mirror: 0
-  m_SpeedParameterActive: 0
-  m_MirrorParameterActive: 0
-  m_CycleOffsetParameterActive: 0
-  m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 0c55e175b02ed4944af07bcbec5adb4b, type: 2}
-  m_Tag: 
-  m_SpeedParameter: 
-  m_MirrorParameter: 
-  m_CycleOffsetParameter: 
-  m_TimeParameter: 
---- !u!1102 &-1013693709028825622
-AnimatorState:
-  serializedVersion: 6
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: AnubisBackAttack
-  m_Speed: 1
-  m_CycleOffset: 0
-  m_Transitions: []
-  m_StateMachineBehaviours: []
-  m_Position: {x: 50, y: 50, z: 0}
-  m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
-  m_Mirror: 0
-  m_SpeedParameterActive: 0
-  m_MirrorParameterActive: 0
-  m_CycleOffsetParameterActive: 0
-  m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: ade2edd2aa328a7408d85ee7e5f71e29, type: 2}
-  m_Tag: 
-  m_SpeedParameter: 
-  m_MirrorParameter: 
-  m_CycleOffsetParameter: 
-  m_TimeParameter: 
---- !u!1102 &-710039075629638214
-AnimatorState:
-  serializedVersion: 6
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: AnubisRigthidle3_4Angry
-  m_Speed: 1
-  m_CycleOffset: 0
-  m_Transitions: []
-  m_StateMachineBehaviours: []
-  m_Position: {x: 50, y: 50, z: 0}
-  m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
-  m_Mirror: 0
-  m_SpeedParameterActive: 0
-  m_MirrorParameterActive: 0
-  m_CycleOffsetParameterActive: 0
-  m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: a4517a857d59b114c9ba0fb048d6cd4e, type: 2}
+  m_Motion: {fileID: 7400000, guid: a082bfa8ad74f634d9c55cdcb110b38f, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -287,13 +180,13 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Idle_D_3_4_01
+  m_Name: Idle_Front_01
   serializedVersion: 5
   m_AnimatorParameters: []
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer
-    m_StateMachine: {fileID: -8765119225046577121}
+    m_StateMachine: {fileID: -3603827791396731042}
     m_Mask: {fileID: 0}
     m_Motions: []
     m_Behaviours: []
@@ -303,14 +196,14 @@ AnimatorController:
     m_IKPass: 0
     m_SyncedLayerAffectsTiming: 0
     m_Controller: {fileID: 9100000}
---- !u!1102 &314716127742126475
+--- !u!1102 &142709685261219497
 AnimatorState:
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: AnubisBackLeftAttack
+  m_Name: perro3_4LeftBackAttack
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -323,20 +216,20 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 8a71943339c9b5f4abeaadcf19b88069, type: 2}
+  m_Motion: {fileID: 7400000, guid: 6631a0fdd2f05f04082644022444271f, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
---- !u!1102 &444733109855566428
+--- !u!1102 &252675983522369967
 AnimatorState:
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: AnubisBack3_4Attack
+  m_Name: perroIdleBackLeft
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -349,20 +242,20 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 3d624f1c9550ac74a94a12cc2cde2e24, type: 2}
+  m_Motion: {fileID: 7400000, guid: 68a3eb6804aa572419a2d3ce5f6c748d, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
---- !u!1102 &1275656837708691836
+--- !u!1102 &626795592650100986
 AnimatorState:
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: AnubisIdleLeftBack
+  m_Name: perroBackAttack
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -375,20 +268,20 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 1910c126cb2b19e4bb09c4813efc5aa3, type: 2}
+  m_Motion: {fileID: 7400000, guid: edf554db56bfbea47ac58fae795cc2dc, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
---- !u!1102 &2419076074366321562
+--- !u!1102 &1156960608987154776
 AnimatorState:
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: AnubisRigth3_4Attack
+  m_Name: perroFrontAttack
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -401,20 +294,20 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: c564d1e28d7135f4aaa469604242a5b2, type: 2}
+  m_Motion: {fileID: 7400000, guid: 676506aa526e30c4ba25b16776cac12d, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
---- !u!1102 &2805161457534970733
+--- !u!1102 &1524883208518017968
 AnimatorState:
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: AnubisDeathBack
+  m_Name: Perro3_4LeftAttack
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -427,20 +320,20 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 5338a745bcf368641a7428e5f74403d0, type: 2}
+  m_Motion: {fileID: 7400000, guid: ce9767cd8c63bee4bb5118023286d8eb, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
---- !u!1102 &3705809180120664724
+--- !u!1102 &2751590929471051570
 AnimatorState:
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: AnubisRigthIdle3_4
+  m_Name: perroDeathBack
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -453,20 +346,20 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 1c86094a5e3e11649a9b25a2b02bfa88, type: 2}
+  m_Motion: {fileID: 7400000, guid: 30794887ecb2de4458702cc9605dbd33, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
---- !u!1102 &4370201753095104456
+--- !u!1102 &3126804926201044567
 AnimatorState:
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: AnubisIdleBack
+  m_Name: Perro3_4LeftAttack
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -479,20 +372,20 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 5e361637525ea9a4381d70f12a8f161d, type: 2}
+  m_Motion: {fileID: 7400000, guid: 96da0379104806e4a857f8c4d1dc85df, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
---- !u!1102 &5039684905223054509
+--- !u!1102 &3394787688831230190
 AnimatorState:
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: AnubisDeathFront
+  m_Name: perroDeathFront
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -505,20 +398,20 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 7b49eac596a5ee84187c23b521858506, type: 2}
+  m_Motion: {fileID: 7400000, guid: f6659f230081f6643b7d59eb9d32b569, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
---- !u!1102 &7294106275726104941
+--- !u!1102 &3456844083454254466
 AnimatorState:
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: AnubisLeft3_4Attack
+  m_Name: Perro3_4RigthAttack
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -531,20 +424,20 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 71f3d42f3cdce34498c31b18b35c9f1d, type: 2}
+  m_Motion: {fileID: 7400000, guid: 04301ef068e6153498ac2f8d938f86f6, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
---- !u!1102 &8103498813304381099
+--- !u!1102 &4681657870384510549
 AnimatorState:
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: AnubisIdle3_4Back
+  m_Name: perroIdleBackRigth
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -557,7 +450,85 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 0e93a5d576361c94b940b965e7fec0b4, type: 2}
+  m_Motion: {fileID: 7400000, guid: f2b62fc12285f854f8c4343057bd6b1d, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
+--- !u!1102 &6894415269269406028
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: perroIdleRigth3_4Angry
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: f9e4b4efdd30d6d4a9b9bce9854fc0d4, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
+--- !u!1102 &6975412279364100941
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: perroIdleLeft3_4Angry
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: 8a27cfa15b1879846aded3ae76c2160f, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
+--- !u!1102 &8570149108103044863
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: perroRigth3_4BackAttack
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: 8d59843c0380c5848aed19d544c02907, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
