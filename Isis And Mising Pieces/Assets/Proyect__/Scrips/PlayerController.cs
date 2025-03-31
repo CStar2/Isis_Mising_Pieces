@@ -48,46 +48,46 @@ public class PlayerController : MonoBehaviour
         DontDestroyOnLoad(gameObject);
     }
 
-    void Update()
-    {
-        if (animator.GetFloat("lastMoveY") > 0)
-        {
-            facingUp = true;
+    //void Update()
+    //{
+    //    if (animator.GetFloat("lastMoveY") > 0)
+    //    {
+    //        facingUp = true;
 
-            facingDown = false;
-            facingLeft = false;
-            facingRight = false;
-        }
+    //        facingDown = false;
+    //        facingLeft = false;
+    //        facingRight = false;
+    //    }
 
-        if (animator.GetFloat("lastMoveY") < 0)
-        {
-            facingDown = true;
+    //    if (animator.GetFloat("lastMoveY") < 0)
+    //    {
+    //        facingDown = true;
 
-            facingUp = false;
-            facingLeft = false;
-            facingRight = false;
-        }
+    //        facingUp = false;
+    //        facingLeft = false;
+    //        facingRight = false;
+    //    }
 
-        if (animator.GetFloat("lastMoveX") < 0)
-        {
-            facingLeft = true;
+    //    if (animator.GetFloat("lastMoveX") < 0)
+    //    {
+    //        facingLeft = true;
 
-            facingUp = false;
-            facingDown = false;
-            facingRight = false;
-        }
+    //        facingUp = false;
+    //        facingDown = false;
+    //        facingRight = false;
+    //    }
 
-        if (animator.GetFloat("lastMoveX") > 0)
-        {
-            facingRight = true;
+    //    if (animator.GetFloat("lastMoveX") > 0)
+    //    {
+    //        facingRight = true;
 
-            facingUp = false;
-            facingDown = false;
-            facingLeft = false;
-        }
+    //        facingUp = false;
+    //        facingDown = false;
+    //        facingLeft = false;
+    //    }
 
 
-    }
+    //}
 
    
 
