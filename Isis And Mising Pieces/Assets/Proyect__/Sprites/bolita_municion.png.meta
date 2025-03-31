@@ -97,7 +97,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bolita_municion_0
+      name: Power_L-R_02
       rect:
         serializedVersion: 2
         x: 29
@@ -119,7 +119,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bolita_municion_1
+      name: Power_L-R_03
       rect:
         serializedVersion: 2
         x: 46
@@ -141,7 +141,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bolita_municion_2
+      name: Power_L-R_04
       rect:
         serializedVersion: 2
         x: 62
@@ -163,7 +163,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bolita_municion_3
+      name: Power_L-R_05
       rect:
         serializedVersion: 2
         x: 79
@@ -185,7 +185,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bolita_municion_4
+      name: Power_L-R_01
       rect:
         serializedVersion: 2
         x: 10
@@ -207,7 +207,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bolita_municion_5
+      name: Power_Blue_L-R_01
       rect:
         serializedVersion: 2
         x: 11
@@ -229,7 +229,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bolita_municion_6
+      name: Power_Blue_L-R_02
       rect:
         serializedVersion: 2
         x: 30
@@ -251,7 +251,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bolita_municion_7
+      name: Power_Blue_L-R_03
       rect:
         serializedVersion: 2
         x: 47
@@ -273,7 +273,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bolita_municion_8
+      name: Power_Blue_L-R_04
       rect:
         serializedVersion: 2
         x: 64
@@ -295,7 +295,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bolita_municion_9
+      name: Power_Blue_L-R_05
       rect:
         serializedVersion: 2
         x: 81
@@ -317,7 +317,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bolita_municion_10
+      name: Power_R-L_05
       rect:
         serializedVersion: 2
         x: 10
@@ -339,7 +339,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bolita_municion_11
+      name: Power_Blue_R-L_05
       rect:
         serializedVersion: 2
         x: 9
@@ -361,7 +361,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bolita_municion_12
+      name: Power_R-L_01
       rect:
         serializedVersion: 2
         x: 80
@@ -383,7 +383,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bolita_municion_13
+      name: Power_R-L_02
       rect:
         serializedVersion: 2
         x: 61
@@ -405,7 +405,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bolita_municion_14
+      name: Power_R-L_03
       rect:
         serializedVersion: 2
         x: 44
@@ -427,7 +427,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bolita_municion_15
+      name: Power_R-L_04
       rect:
         serializedVersion: 2
         x: 27
@@ -449,7 +449,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bolita_municion_16
+      name: Power_Blue_R-L_01
       rect:
         serializedVersion: 2
         x: 79
@@ -471,7 +471,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bolita_municion_17
+      name: Power_Blue_R-L_02
       rect:
         serializedVersion: 2
         x: 60
@@ -493,7 +493,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bolita_municion_18
+      name: Power_Blue_R-L_03
       rect:
         serializedVersion: 2
         x: 43
@@ -515,7 +515,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bolita_municion_19
+      name: Power_Blue_R-L_04
       rect:
         serializedVersion: 2
         x: 26
@@ -537,7 +537,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bolita_municion_20
+      name: Power_Blue_U-D_01
       rect:
         serializedVersion: 2
         x: 105
@@ -559,7 +559,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bolita_municion_21
+      name: Power_Blue_U-D_02
       rect:
         serializedVersion: 2
         x: 105
@@ -581,7 +581,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bolita_municion_22
+      name: Power_Blue_U-D_03
       rect:
         serializedVersion: 2
         x: 105
@@ -603,7 +603,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bolita_municion_23
+      name: Power_Blue_U-D_04
       rect:
         serializedVersion: 2
         x: 105
@@ -625,7 +625,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bolita_municion_24
+      name: Power_Blue_U-D_05
       rect:
         serializedVersion: 2
         x: 105
@@ -647,7 +647,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bolita_municion_25
+      name: Power_U-D_05
       rect:
         serializedVersion: 2
         x: 128
@@ -669,7 +669,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bolita_municion_26
+      name: Power_U-D_04
       rect:
         serializedVersion: 2
         x: 128
@@ -691,7 +691,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bolita_municion_27
+      name: Power_U-D_03
       rect:
         serializedVersion: 2
         x: 128
@@ -713,7 +713,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bolita_municion_28
+      name: Power_U-D_02
       rect:
         serializedVersion: 2
         x: 128
@@ -735,7 +735,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bolita_municion_29
+      name: Power_U-D_01
       rect:
         serializedVersion: 2
         x: 128
@@ -757,7 +757,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bolita_municion_30
+      name: Power_Blue_D-U_05
       rect:
         serializedVersion: 2
         x: 151
@@ -779,7 +779,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bolita_municion_31
+      name: Power_Blue_D-U_04
       rect:
         serializedVersion: 2
         x: 151
@@ -801,7 +801,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bolita_municion_32
+      name: Power_Blue_D-U_03
       rect:
         serializedVersion: 2
         x: 151
@@ -823,7 +823,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bolita_municion_33
+      name: Power_Blue_D-U_02
       rect:
         serializedVersion: 2
         x: 152
@@ -845,7 +845,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bolita_municion_34
+      name: Power_Blue_D-U_01
       rect:
         serializedVersion: 2
         x: 152
@@ -867,7 +867,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bolita_municion_35
+      name: Power_D-U_01
       rect:
         serializedVersion: 2
         x: 175
@@ -889,7 +889,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bolita_municion_36
+      name: Power_D-U_02
       rect:
         serializedVersion: 2
         x: 175
@@ -911,7 +911,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bolita_municion_37
+      name: Power_D-U_03
       rect:
         serializedVersion: 2
         x: 175
@@ -933,7 +933,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bolita_municion_38
+      name: Power_D-U_04
       rect:
         serializedVersion: 2
         x: 174
@@ -955,7 +955,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bolita_municion_39
+      name: Power_D-U_05
       rect:
         serializedVersion: 2
         x: 174
@@ -977,7 +977,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bolita_municion_40
+      name: Power_Blue_L-R_U_01
       rect:
         serializedVersion: 2
         x: 195
@@ -999,7 +999,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bolita_municion_41
+      name: Power_Blue_L-R_U_02
       rect:
         serializedVersion: 2
         x: 213
@@ -1021,7 +1021,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bolita_municion_42
+      name: Power_Blue_L-R_U_03
       rect:
         serializedVersion: 2
         x: 229
@@ -1043,7 +1043,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bolita_municion_43
+      name: Power_Blue_L-R_U_04
       rect:
         serializedVersion: 2
         x: 245
@@ -1065,7 +1065,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bolita_municion_44
+      name: Power_Blue_L-R_U_05
       rect:
         serializedVersion: 2
         x: 260
@@ -1086,6 +1086,776 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Power_L-R_U_01
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 7
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7db8b511619e6c549b243c96861b5f6b
+      internalID: 1591227784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power_L-R_U_02
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 20
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fc8079f94a1983418435fc3c221a3b7
+      internalID: -197556055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power_L-R_U_03
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 34
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52368719a774ab1419afcf6090c4b843
+      internalID: -1247505665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power_L-R_U_04
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 47
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06580bf0fe691d64ca01a8fc6a251177
+      internalID: 1902369285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power_L-R_U_05
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 62
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fe70dc362c358f4f97ed57fc67184b4
+      internalID: 536762674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power_R-L_D_05
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 20
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b6009e0e20ba384992cf344a0748983
+      internalID: 135537877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power_R-L_D_04
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 36
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 410334827e4ddf04082b141a5ecb25bd
+      internalID: -398522690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power_R-L_D_03
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 49
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a095138cd8382c4f9450a4bc03ecb60
+      internalID: -1993153763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power_R-L_D_02
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 66
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 420476c366993a848bc61bd8fe731fee
+      internalID: 1269732837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power_R-L_D_01
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 82
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e17b77d646c8624989f44a3429ea8c2
+      internalID: 874842954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power_Blue_R-L_D_05
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 4
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b71ab46fd5398be4ba87ef2dda9ced38
+      internalID: 121877424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power_Blue_R-L_D_04
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 19
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a23eab4c95f061b41b46a1d17e60dfb2
+      internalID: 29370449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power_Blue_R-L_D_03
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 33
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 830e772116c1de34ba7fe07896f5e430
+      internalID: 458529951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power_Blue_R-L_D_02
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 48
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b42ce4432a43aa84585b8415f6044e0e
+      internalID: 1480218355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power_Blue_R-L_D_01
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 63
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 217cf1dc4fcf0cb48b2fade58c2ee1d1
+      internalID: -1901029138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power_Blue_L-R_D_01
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 63
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 242b6c8c5df5f104099ffad317fc8eb6
+      internalID: -383178042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power_Blue_L-R_D_02
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 48
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d81a2b8ce9da2d49bcde7d61541c22d
+      internalID: -908733158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power_Blue_L-R_D_03
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 33
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab322ebf5b8745f468ff864e6bb82157
+      internalID: -987951281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power_Blue_L-R_D_04
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 19
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a53ff5e193ce4c14291ece2ba391b8ad
+      internalID: -672828893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power_Blue_L-R_D_05
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 5
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a104533b959864c4b8791a638354a4b7
+      internalID: -220928884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power_L-R_D_01
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 82
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1ba8e6d1fa334f4a93275f1a5c73fd0
+      internalID: 248578659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power_L-R_D_02
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 66
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac5aa3c5bc2d2154482f5e0747fbe960
+      internalID: 1656460489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power_L-R_D_03
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 49
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8112eda1b66f6d4c9a3e08e675765b4
+      internalID: -92813784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power_L-R_D_04
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 36
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74b3110681a682840bd03ff4f6c347d2
+      internalID: 173896132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power_L-R_D_05
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 20
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e48f6999f554c84eb552f73b664f7b3
+      internalID: -1211255878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power_R_L_U_05
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 62
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6db7879affa16a148a0b2c55983d794c
+      internalID: 649639624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power_R_L_U_04
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 47
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc4f8a893f01afc4591eddc5554afc69
+      internalID: -548362453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power_R_L_U_03
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 34
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8145f11f5a75e654597ed91da41c2f82
+      internalID: -1529441610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power_R_L_U_02
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 20
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 994db3c9423d4d84eb0654c3770ea300
+      internalID: 913872704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power_R_L_U_01
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 7
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce0e6d6a404e77743aa736d385695218
+      internalID: 524609575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power_Blue_R_L_U_01
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 31
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abd3a25d06fc05744b58185efa03d10e
+      internalID: -723628695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power_Blue_R_L_U_02
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 44
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1e3beaa2c88afd48b0826f4f773dd9d
+      internalID: 191429155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power_Blue_R_L_U_03
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 57
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b4a324a43bccee4d806445a815f2d03
+      internalID: -1865248165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power_Blue_R_L_U_04
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 70
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e27226271fe6884aa8a3352cbd9055a
+      internalID: -616790494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power_Blue_R_L_U_05
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 83
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f1eeb60f9115c942993872ae35d220b
+      internalID: 1048882125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -1100,51 +1870,87 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      bolita_municion_0: -1460897612
-      bolita_municion_1: 1390502321
-      bolita_municion_10: 1618875690
-      bolita_municion_11: 1879569340
-      bolita_municion_12: -106080607
-      bolita_municion_13: -842039652
-      bolita_municion_14: 615515659
-      bolita_municion_15: -326254054
-      bolita_municion_16: -128869241
-      bolita_municion_17: -1910607821
-      bolita_municion_18: -1882626976
-      bolita_municion_19: 960064389
-      bolita_municion_2: 474393801
-      bolita_municion_20: 1776050863
-      bolita_municion_21: -449629615
-      bolita_municion_22: 1976515964
-      bolita_municion_23: -1061481863
-      bolita_municion_24: -2146363209
-      bolita_municion_25: 1567709485
-      bolita_municion_26: 1378410842
-      bolita_municion_27: -1140417382
-      bolita_municion_28: 889994264
-      bolita_municion_29: -733277961
-      bolita_municion_3: -2038658917
-      bolita_municion_30: -1064423253
-      bolita_municion_31: 743862173
-      bolita_municion_32: 254300449
-      bolita_municion_33: 1146372751
-      bolita_municion_34: -333947448
-      bolita_municion_35: -570442002
-      bolita_municion_36: -1957153638
-      bolita_municion_37: 1970482641
-      bolita_municion_38: -224042353
-      bolita_municion_39: 321458439
-      bolita_municion_4: 1556932051
-      bolita_municion_40: 393179782
-      bolita_municion_41: 670109236
-      bolita_municion_42: 88216401
-      bolita_municion_43: 155789143
-      bolita_municion_44: 969808098
-      bolita_municion_5: -218097116
-      bolita_municion_6: 1506088046
-      bolita_municion_7: -115807656
-      bolita_municion_8: 1611882823
-      bolita_municion_9: -1086750327
+      -Power_L-R_U01: 1591227784
+      Power_Blue_D-U_01: -333947448
+      Power_Blue_D-U_02: 1146372751
+      Power_Blue_D-U_03: 254300449
+      Power_Blue_D-U_04: 743862173
+      Power_Blue_D-U_05: -1064423253
+      Power_Blue_L-R_01: -218097116
+      Power_Blue_L-R_02: 1506088046
+      Power_Blue_L-R_03: -115807656
+      Power_Blue_L-R_04: 1611882823
+      Power_Blue_L-R_05: -1086750327
+      Power_Blue_L-R_D_01: -383178042
+      Power_Blue_L-R_D_02: -908733158
+      Power_Blue_L-R_D_03: -987951281
+      Power_Blue_L-R_D_04: -672828893
+      Power_Blue_L-R_D_05: -220928884
+      Power_Blue_L-R_U_01: 393179782
+      Power_Blue_L-R_U_02: 670109236
+      Power_Blue_L-R_U_03: 88216401
+      Power_Blue_L-R_U_04: 155789143
+      Power_Blue_L-R_U_05: 969808098
+      Power_Blue_R-L_01: -128869241
+      Power_Blue_R-L_02: -1910607821
+      Power_Blue_R-L_03: -1882626976
+      Power_Blue_R-L_04: 960064389
+      Power_Blue_R-L_05: 1879569340
+      Power_Blue_R-L_D_01: -1901029138
+      Power_Blue_R-L_D_02: 1480218355
+      Power_Blue_R-L_D_03: 458529951
+      Power_Blue_R-L_D_04: 29370449
+      Power_Blue_R-L_D_05: 121877424
+      Power_Blue_R_L_U_01: -723628695
+      Power_Blue_R_L_U_02: 191429155
+      Power_Blue_R_L_U_03: -1865248165
+      Power_Blue_R_L_U_04: -616790494
+      Power_Blue_R_L_U_05: 1048882125
+      Power_Blue_U-D_01: 1776050863
+      Power_Blue_U-D_02: -449629615
+      Power_Blue_U-D_03: 1976515964
+      Power_Blue_U-D_04: -1061481863
+      Power_Blue_U-D_05: -2146363209
+      Power_D-U_01: -570442002
+      Power_D-U_02: -1957153638
+      Power_D-U_03: 1970482641
+      Power_D-U_04: -224042353
+      Power_D-U_05: 321458439
+      Power_L-R_01: 1556932051
+      Power_L-R_02: -1460897612
+      Power_L-R_03: 1390502321
+      Power_L-R_04: 474393801
+      Power_L-R_05: -2038658917
+      Power_L-R_D_01: 248578659
+      Power_L-R_D_02: 1656460489
+      Power_L-R_D_03: -92813784
+      Power_L-R_D_04: 173896132
+      Power_L-R_D_05: -1211255878
+      Power_L-R_U_01: 1591227784
+      Power_L-R_U_02: -197556055
+      Power_L-R_U_03: -1247505665
+      Power_L-R_U_04: 1902369285
+      Power_L-R_U_05: 536762674
+      Power_R-L_01: -106080607
+      Power_R-L_02: -842039652
+      Power_R-L_03: 615515659
+      Power_R-L_04: -326254054
+      Power_R-L_05: 1618875690
+      Power_R-L_D_01: 874842954
+      Power_R-L_D_02: 1269732837
+      Power_R-L_D_03: -1993153763
+      Power_R-L_D_04: -398522690
+      Power_R-L_D_05: 135537877
+      Power_R_L_U_01: 524609575
+      Power_R_L_U_02: 913872704
+      Power_R_L_U_03: -1529441610
+      Power_R_L_U_04: -548362453
+      Power_R_L_U_05: 649639624
+      Power_U-D_01: -733277961
+      Power_U-D_02: 889994264
+      Power_U-D_03: -1140417382
+      Power_U-D_04: 1378410842
+      Power_U-D_05: 1567709485
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
