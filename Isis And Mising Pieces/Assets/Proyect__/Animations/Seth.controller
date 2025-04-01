@@ -1,13 +1,13 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1102 &-8513169092735043225
+--- !u!1102 &-8032301592612405212
 AnimatorState:
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: NeftisIdle3_4LeftBack
+  m_Name: SethIdleFront
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -20,81 +20,20 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 866d8ccdc8c7e2d4aa42874beac38910, type: 2}
+  m_Motion: {fileID: 7400000, guid: 7ab671bfd3c918540b352e821d257b4d, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
---- !u!1107 &-6801964259192791166
-AnimatorStateMachine:
-  serializedVersion: 6
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Base Layer
-  m_ChildStates:
-  - serializedVersion: 1
-    m_State: {fileID: -2635287287621387057}
-    m_Position: {x: 240, y: 150, z: 0}
-  - serializedVersion: 1
-    m_State: {fileID: 7980498215399214921}
-    m_Position: {x: 240, y: 200, z: 0}
-  - serializedVersion: 1
-    m_State: {fileID: 5855780780204526187}
-    m_Position: {x: 240, y: 250, z: 0}
-  - serializedVersion: 1
-    m_State: {fileID: -2104910195430326538}
-    m_Position: {x: 240, y: 300, z: 0}
-  - serializedVersion: 1
-    m_State: {fileID: 2394328067703429247}
-    m_Position: {x: 240, y: 350, z: 0}
-  - serializedVersion: 1
-    m_State: {fileID: 5311092868351575221}
-    m_Position: {x: 240, y: 400, z: 0}
-  - serializedVersion: 1
-    m_State: {fileID: -749152641267925090}
-    m_Position: {x: 450, y: 150, z: 0}
-  - serializedVersion: 1
-    m_State: {fileID: 7535744632470421082}
-    m_Position: {x: 450, y: 200, z: 0}
-  - serializedVersion: 1
-    m_State: {fileID: -8513169092735043225}
-    m_Position: {x: 450, y: 250, z: 0}
-  - serializedVersion: 1
-    m_State: {fileID: 5777972786067610123}
-    m_Position: {x: 450, y: 300, z: 0}
-  - serializedVersion: 1
-    m_State: {fileID: 8713305537241074026}
-    m_Position: {x: 450, y: 350, z: 0}
-  - serializedVersion: 1
-    m_State: {fileID: 2294471290454538350}
-    m_Position: {x: 450, y: 400, z: 0}
-  - serializedVersion: 1
-    m_State: {fileID: -2037471304250227092}
-    m_Position: {x: 660, y: 150, z: 0}
-  - serializedVersion: 1
-    m_State: {fileID: -3513920302576905233}
-    m_Position: {x: 660, y: 200, z: 0}
-  m_ChildStateMachines: []
-  m_AnyStateTransitions: []
-  m_EntryTransitions: []
-  m_StateMachineTransitions: {}
-  m_StateMachineBehaviours: []
-  m_AnyStatePosition: {x: 50, y: 20, z: 0}
-  m_EntryPosition: {x: 50, y: 120, z: 0}
-  m_ExitPosition: {x: 380, y: 80, z: 0}
-  m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
-  m_DefaultState: {fileID: -2635287287621387057}
---- !u!1102 &-3513920302576905233
+--- !u!1102 &-7823642657601546892
 AnimatorState:
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: NeftisIDleFrontAngry
+  m_Name: SethIdle3_4Rigth
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -107,20 +46,20 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: a37c196564da75749ba7de2dc100d7c5, type: 2}
+  m_Motion: {fileID: 7400000, guid: 537b74158e3f3354dab03a7241033e5f, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
---- !u!1102 &-2635287287621387057
+--- !u!1102 &-7083994909448505048
 AnimatorState:
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: NeftisLeft3_4Attack
+  m_Name: SethIdleFrontAngry
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -133,85 +72,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 5ce3353d0a8517a4590f8b8f449c4886, type: 2}
-  m_Tag: 
-  m_SpeedParameter: 
-  m_MirrorParameter: 
-  m_CycleOffsetParameter: 
-  m_TimeParameter: 
---- !u!1102 &-2104910195430326538
-AnimatorState:
-  serializedVersion: 6
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: NeftisDeathBack
-  m_Speed: 1
-  m_CycleOffset: 0
-  m_Transitions: []
-  m_StateMachineBehaviours: []
-  m_Position: {x: 50, y: 50, z: 0}
-  m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
-  m_Mirror: 0
-  m_SpeedParameterActive: 0
-  m_MirrorParameterActive: 0
-  m_CycleOffsetParameterActive: 0
-  m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: b59c575f80559aa4e98771c0c147a769, type: 2}
-  m_Tag: 
-  m_SpeedParameter: 
-  m_MirrorParameter: 
-  m_CycleOffsetParameter: 
-  m_TimeParameter: 
---- !u!1102 &-2037471304250227092
-AnimatorState:
-  serializedVersion: 6
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: NeftisIdleFront
-  m_Speed: 1
-  m_CycleOffset: 0
-  m_Transitions: []
-  m_StateMachineBehaviours: []
-  m_Position: {x: 50, y: 50, z: 0}
-  m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
-  m_Mirror: 0
-  m_SpeedParameterActive: 0
-  m_MirrorParameterActive: 0
-  m_CycleOffsetParameterActive: 0
-  m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: e9ab832d9ba8d6d458153e6fe0768fa0, type: 2}
-  m_Tag: 
-  m_SpeedParameter: 
-  m_MirrorParameter: 
-  m_CycleOffsetParameter: 
-  m_TimeParameter: 
---- !u!1102 &-749152641267925090
-AnimatorState:
-  serializedVersion: 6
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: NeftisIdle3_4Left
-  m_Speed: 1
-  m_CycleOffset: 0
-  m_Transitions: []
-  m_StateMachineBehaviours: []
-  m_Position: {x: 50, y: 50, z: 0}
-  m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
-  m_Mirror: 0
-  m_SpeedParameterActive: 0
-  m_MirrorParameterActive: 0
-  m_CycleOffsetParameterActive: 0
-  m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 4f197c7335a116649914afd93e42bd05, type: 2}
+  m_Motion: {fileID: 7400000, guid: bf5b7067ce99a2645bfc69a886f833e3, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -223,13 +84,13 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Neftis
+  m_Name: Seth
   serializedVersion: 5
   m_AnimatorParameters: []
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer
-    m_StateMachine: {fileID: -6801964259192791166}
+    m_StateMachine: {fileID: 286983159721159470}
     m_Mask: {fileID: 0}
     m_Motions: []
     m_Behaviours: []
@@ -239,14 +100,63 @@ AnimatorController:
     m_IKPass: 0
     m_SyncedLayerAffectsTiming: 0
     m_Controller: {fileID: 9100000}
---- !u!1102 &2294471290454538350
+--- !u!1107 &286983159721159470
+AnimatorStateMachine:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Base Layer
+  m_ChildStates:
+  - serializedVersion: 1
+    m_State: {fileID: 3948872588848510503}
+    m_Position: {x: 230, y: 120, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 3540984551354051438}
+    m_Position: {x: 230, y: 170, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 3226967805899640097}
+    m_Position: {x: 230, y: 220, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 7844017296457756415}
+    m_Position: {x: 230, y: 270, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 425628893709032437}
+    m_Position: {x: 230, y: 320, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 2787541717854879494}
+    m_Position: {x: 230, y: 370, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: -7823642657601546892}
+    m_Position: {x: 440, y: 120, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 3613880796542600114}
+    m_Position: {x: 440, y: 170, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: -8032301592612405212}
+    m_Position: {x: 440, y: 220, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: -7083994909448505048}
+    m_Position: {x: 440, y: 270, z: 0}
+  m_ChildStateMachines: []
+  m_AnyStateTransitions: []
+  m_EntryTransitions: []
+  m_StateMachineTransitions: {}
+  m_StateMachineBehaviours: []
+  m_AnyStatePosition: {x: 50, y: 20, z: 0}
+  m_EntryPosition: {x: 50, y: 120, z: 0}
+  m_ExitPosition: {x: 800, y: 120, z: 0}
+  m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
+  m_DefaultState: {fileID: 3948872588848510503}
+--- !u!1102 &425628893709032437
 AnimatorState:
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Neftis3_4RigthBack
+  m_Name: SethIdle3_4Left
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -259,20 +169,20 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: e0676c37925cff740a6c5321618d7c12, type: 2}
+  m_Motion: {fileID: 7400000, guid: 9319b3466aba2bd4c9622746aaf9f854, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
---- !u!1102 &2394328067703429247
+--- !u!1102 &2787541717854879494
 AnimatorState:
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: NeftisDeathFront
+  m_Name: SethIdle3_4LeftAngry
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -285,20 +195,20 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 0e41a83c88ed7294e85cb77844a3e124, type: 2}
+  m_Motion: {fileID: 7400000, guid: 973b862fb0938e540896b040636db945, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
---- !u!1102 &5311092868351575221
+--- !u!1102 &3226967805899640097
 AnimatorState:
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: NeftisFrontAttack
+  m_Name: SethDeath
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -311,20 +221,20 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 4c76a53ea6d43ba439f5edb5a17fcee4, type: 2}
+  m_Motion: {fileID: 7400000, guid: 161bcb552ff921a419020f4dee73bdbb, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
---- !u!1102 &5777972786067610123
+--- !u!1102 &3540984551354051438
 AnimatorState:
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: NeftisIdle3_4Rigth
+  m_Name: SethAttack3_4Rigth
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -337,20 +247,20 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: a5d0c4bed5345b4449f5c39292ae2456, type: 2}
+  m_Motion: {fileID: 7400000, guid: 0c3f7284e61af144fb5965fe31565a7f, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
---- !u!1102 &5855780780204526187
+--- !u!1102 &3613880796542600114
 AnimatorState:
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: NeftisRigth3_4Attack
+  m_Name: SethIdle3_4RigthAngry
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -363,20 +273,20 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 2ad4a9958dca39e498f2a4bbdd222118, type: 2}
+  m_Motion: {fileID: 7400000, guid: ff6679a9dd487ea4184065ad226e57ee, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
---- !u!1102 &7535744632470421082
+--- !u!1102 &3948872588848510503
 AnimatorState:
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: NeftisIdle3_4LeftAngry
+  m_Name: SethAttackHurt2_4Left
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -389,20 +299,20 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 392719fc8713c984b8e624804a41234d, type: 2}
+  m_Motion: {fileID: 7400000, guid: 70fa69fa7b205e64c8529cf252f20008, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
---- !u!1102 &7980498215399214921
+--- !u!1102 &7844017296457756415
 AnimatorState:
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: NeftisBack3_4Left
+  m_Name: SethFrontAttack
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -415,33 +325,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: c8e33eaea24c8b84b87b57da85774ed3, type: 2}
-  m_Tag: 
-  m_SpeedParameter: 
-  m_MirrorParameter: 
-  m_CycleOffsetParameter: 
-  m_TimeParameter: 
---- !u!1102 &8713305537241074026
-AnimatorState:
-  serializedVersion: 6
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: NeftisIdle3_4RigthAngry
-  m_Speed: 1
-  m_CycleOffset: 0
-  m_Transitions: []
-  m_StateMachineBehaviours: []
-  m_Position: {x: 50, y: 50, z: 0}
-  m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
-  m_Mirror: 0
-  m_SpeedParameterActive: 0
-  m_MirrorParameterActive: 0
-  m_CycleOffsetParameterActive: 0
-  m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: f2deda410a5bf66458020b8bf3b76b7b, type: 2}
+  m_Motion: {fileID: 7400000, guid: 7bfe55d84e8fcab439449e7e4ddcfdb4, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
