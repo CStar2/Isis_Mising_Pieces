@@ -7,12 +7,15 @@ public class Dialogue : MonoBehaviour
     
     [SerializeField] private GameObject dialoguepanel;
     [SerializeField] private TMP_Text dialoguetext;
-    [SerializeField] public GameObject portraits;
+    [SerializeField] private GameObject portarit;
+    [SerializeField] public AnimationClip clip;
     [SerializeField, TextArea(4, 6)] private string[] dialogueLine;
     
     public bool Isplayernear;
+    //public bool Isplaying;
     public bool DidStartDialogue;
     private int lineIndex;
+    
 
     private float TypingTime = .05f;
     void Update()
@@ -22,10 +25,13 @@ public class Dialogue : MonoBehaviour
             if (!DidStartDialogue)
             { 
                 StartDialogue();
+                AnimationClip.Instantiate(dialoguetext);
+                //Isplaying = true;
             }
             else if (dialoguetext.text == dialogueLine[lineIndex]) 
             {
                 nextDialogue();
+                //Isplaying = true;
             }
         }
     }
@@ -34,7 +40,8 @@ public class Dialogue : MonoBehaviour
     {
         DidStartDialogue = true;
         dialoguepanel.SetActive(true);
-        portraits.SetActive(true);
+        portarit.GetComponent<AnimationClip>();
+        //clip = GetComponent<AnimationClip>();
         lineIndex = 0;
         StartCoroutine(ShowLine());
         
