@@ -41,5 +41,9 @@ public class SethBattle : MonoBehaviour
     //private void SeePlayer()
     //{
     //    if (player.position.x > transform.position.x && !Right) 
+    //    {
+    //        Right = !Right;
+    //        transform.
+    //    }
     //}
 }

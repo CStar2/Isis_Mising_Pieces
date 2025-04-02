@@ -6,6 +6,7 @@ public class PlayerAttack : MonoBehaviour
     [SerializeField] private float AttackRadio;
     [SerializeField] private float Attackdamage;
 
+   
 
     private void Update()
     {
@@ -13,6 +14,7 @@ public class PlayerAttack : MonoBehaviour
         {
             Attack();
         }
+
     }
 
     private void Attack()
@@ -27,6 +29,8 @@ public class PlayerAttack : MonoBehaviour
         }
 
     }
+
+   
 
     private void OnDrawGizmos()
     {
