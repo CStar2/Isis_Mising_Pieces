@@ -1,6 +1,7 @@
 using System.Collections;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Dialogue : MonoBehaviour
 {
@@ -8,7 +9,6 @@ public class Dialogue : MonoBehaviour
     [SerializeField] private GameObject dialoguepanel;
     [SerializeField] private TMP_Text dialoguetext;
     [SerializeField] private GameObject portarit;
-    [SerializeField] public AnimationClip clip;
     [SerializeField, TextArea(4, 6)] private string[] dialogueLine;
     
     public bool Isplayernear;
@@ -25,7 +25,7 @@ public class Dialogue : MonoBehaviour
             if (!DidStartDialogue)
             { 
                 StartDialogue();
-                AnimationClip.Instantiate(dialoguetext);
+                //portarit.GetComponent<RawImage>();
                 //Isplaying = true;
             }
             else if (dialoguetext.text == dialogueLine[lineIndex]) 

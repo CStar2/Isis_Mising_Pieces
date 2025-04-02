@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class EnemyDetection : MonoBehaviour
+public class EnemyDetection : MonoBehaviour 
 {
     public bool Isplayernear;
 
@@ -25,6 +25,7 @@ public class EnemyDetection : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             Isplayernear = true;
+            
             Debug.Log("Golpe :D");
         }
 

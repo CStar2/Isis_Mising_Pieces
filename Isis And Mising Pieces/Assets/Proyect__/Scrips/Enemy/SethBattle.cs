@@ -6,9 +6,9 @@ public class SethBattle : MonoBehaviour
 
     public Rigidbody2D rb2D;
 
-    public Transform jugador;
+    public Transform player;
 
-
+    public bool Right;
 
     [SerializeField] private float Life;
 
@@ -18,7 +18,7 @@ public class SethBattle : MonoBehaviour
     {
         animator = GetComponent<Animator>();
         rb2D = GetComponent<Rigidbody2D>();
-        jugador = GameObject.FindWithTag("Player").GetComponent<Transform>();
+        player = GameObject.FindWithTag("Player").GetComponent<Transform>();
     }
 
     public void TakeDamage(float damage)
@@ -37,4 +37,9 @@ public class SethBattle : MonoBehaviour
     {
         Destroy(gameObject);
     }
+
+    //private void SeePlayer()
+    //{
+    //    if (player.position.x > transform.position.x && !Right) 
+    //}
 }
