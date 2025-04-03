@@ -27,7 +27,7 @@ public class GameManager : MonoBehaviour
     
     public ScoreManager ScoreManager => _scoreManager;
    
-    public object AnimationController { get; internal set; }
+    //public object AnimationController { get; internal set; }
 
 
     //Codigo para que solo exista un game manager. 

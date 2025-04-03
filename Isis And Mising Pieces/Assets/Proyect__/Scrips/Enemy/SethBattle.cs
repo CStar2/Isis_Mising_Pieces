@@ -1,4 +1,6 @@
+using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class SethBattle : MonoBehaviour
 {
@@ -20,6 +22,7 @@ public class SethBattle : MonoBehaviour
     [SerializeField] private Transform AttackController;
     [SerializeField] private float AttackRadio;
     [SerializeField] private float Attackdamage;
+    [SerializeField] private GameObject Final;
 
     // [SerializeField] private LifeBar lifebar;
 
@@ -48,19 +51,44 @@ public class SethBattle : MonoBehaviour
 
     }
 
+    //public IEnumerator GetDamage(float damage)
+    //{
+    //    Life -= damage;
+        
+
+    //    if (Life <= 0)
+    //    {
+    //        animator.SetTrigger("Death");
+    //    }
+    //    yield return new WaitForSeconds(5f);
+
+    //    SceneManager.LoadScene("Final");
+
+    //}
     public void GetDamage(float damage)
     {
         Life -= damage;
-        
+
 
         if (Life <= 0)
         {
             animator.SetTrigger("Death");
+            Final.SetActive(true);
+            
         }
+   
+
     }
 
-    
-    
+    public void PlayFinal()
+    {
+        SceneManager.LoadScene("Final");
+    }
+
+
+
+
+
 
     private void OnTriggerEnter2D(Collider2D collision)
     {

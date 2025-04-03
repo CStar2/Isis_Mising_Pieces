@@ -12,6 +12,9 @@ public class ChanceLevel : MonoBehaviour
     [SerializeField] private GameObject MessageYes;
     [SerializeField] private GameObject MessageNo;
 
+    [SerializeField] private int si;
+    [SerializeField] private int no;
+
     private int score = 0;
     public int Score => score;
 
@@ -19,7 +22,7 @@ public class ChanceLevel : MonoBehaviour
 
     private void Update()
     {
-        if (isPlayerNear && Input.GetButtonDown("Fire1"))
+        if (isPlayerNear)
         {
             wadodo();
         }
@@ -36,27 +39,22 @@ public class ChanceLevel : MonoBehaviour
    private void wadodo()
     {
         
-        if (score == 0)
+        if (score == si)
         {
             message.SetActive(true);   
             MessageYes.SetActive(true);
             MessageNo.SetActive(false);
             Debug.Log("detecto");
         }
-        else if (score == 1 )
+        else if (score !=si )
         {
             message.SetActive(true);
             MessageYes.SetActive(false);
             MessageNo.SetActive(true);
             Debug.Log("no detecto");
         }
-        else if (score == 2)
-        {
-            message.SetActive(true);
-            MessageYes.SetActive(false);
-            MessageNo.SetActive(true);
-            Debug.Log("Esta");
-        }
+        
+        
     }
     
     private void transport()
