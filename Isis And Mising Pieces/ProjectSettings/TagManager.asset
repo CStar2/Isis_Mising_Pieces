@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Objects
   - Enemy
+  - Seth
   layers:
   - Default
   - TransparentFX

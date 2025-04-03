@@ -5,14 +5,14 @@ public class LifePlayer : MonoBehaviour
 {
     [SerializeField] private float life;
 
-    public void Playerdamage(float damage, string nameScene)
+    public void Playerdamage(float damage)
     {
         life -= damage;
 
         if (life <= 0 )
         {
             Destroy(gameObject);
-            SceneManager.LoadScene(nameScene);
+            SceneManager.LoadScene("GameOver");
         }
     }
 }

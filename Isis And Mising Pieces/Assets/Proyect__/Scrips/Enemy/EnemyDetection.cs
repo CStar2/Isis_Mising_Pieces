@@ -8,16 +8,9 @@ public class EnemyDetection : MonoBehaviour
     {
         if (Isplayernear)
         {
-            StartBattle();
+            
         }
     }
-
-    public void StartBattle()
-    {
-
-
-    }
-
 
 
     private void OnTriggerEnter2D(Collider2D collision)

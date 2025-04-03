@@ -12,6 +12,10 @@ public class Doggie : MonoBehaviour
 
     private SpriteRenderer spriteRenderer;
 
+    [SerializeField] private Transform AttackController;
+    [SerializeField] private float AttackRadio;
+    [SerializeField] private float Attackdamage;
+
 
     private void Start()
     {
@@ -25,6 +29,23 @@ public class Doggie : MonoBehaviour
         distance = Vector2.Distance(transform.position, player.position);
         animator.SetFloat("distancia", distance);
 
+        Collider2D[] objects = Physics2D.OverlapCircleAll(AttackController.position, AttackRadio);
+        foreach (Collider2D collitions in objects)
+        {
+            if (collitions.CompareTag("Player"))
+            {
+                collitions.transform.GetComponent<LifePlayer>().Playerdamage(Attackdamage);
+
+            }
+
+        }
+
+    }
+
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = Color.blue;
+        Gizmos.DrawWireSphere(AttackController.position, AttackRadio);
     }
 
     public void rotate(Vector3 desired)
@@ -38,4 +59,6 @@ public class Doggie : MonoBehaviour
             spriteRenderer.flipY = false;
         }
     }
+
+
 }

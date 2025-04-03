@@ -8,9 +8,18 @@ public class SethBattle : MonoBehaviour
 
     public Transform player;
 
-    public bool Right;
+
+    [SerializeField] private float distance;
+
+    public Vector3 StartPoint;
 
     [SerializeField] private float Life;
+
+    private EnemyAttack EnemyAttack;
+
+    [SerializeField] private Transform AttackController;
+    [SerializeField] private float AttackRadio;
+    [SerializeField] private float Attackdamage;
 
     // [SerializeField] private LifeBar lifebar;
 
@@ -21,22 +30,48 @@ public class SethBattle : MonoBehaviour
         player = GameObject.FindWithTag("Player").GetComponent<Transform>();
     }
 
-    public void TakeDamage(float damage)
+    private void Update()
     {
-        Life -= damage;
+        distance = Vector2.Distance(transform.position, player.position);
+        animator.SetFloat("Distance", distance);
 
-        if (Life <= 0)
+        Collider2D[] objects = Physics2D.OverlapCircleAll(AttackController.position, AttackRadio);
+        foreach (Collider2D collitions in objects)
         {
-            animator.SetTrigger("Death");
-            Death();
+            if (collitions.CompareTag("Player"))
+            {
+                collitions.transform.GetComponent<LifePlayer>().Playerdamage(Attackdamage);
+
+            }
+            
         }
 
     }
 
-    private void Death()
+    public void GetDamage(float damage)
     {
-        Destroy(gameObject);
+        Life -= damage;
+        
+
+        if (Life <= 0)
+        {
+            animator.SetTrigger("Death");
+        }
     }
+
+    
+    
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            animator.SetTrigger("Attack");
+        }
+
+    }
+
+  
 
     //private void SeePlayer()
     //{
