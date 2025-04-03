@@ -1,7 +1,7 @@
 using TMPro;
-using UnityEditor.Rendering;
+//using UnityEditor.Rendering;
 using UnityEngine;
-using UnityEngine.SocialPlatforms.Impl;
+//using UnityEngine.SocialPlatforms.Impl;
 
 public class ChanceLevel : MonoBehaviour
 {
