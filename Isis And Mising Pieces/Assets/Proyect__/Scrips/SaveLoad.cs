@@ -7,7 +7,7 @@ public class SaveLoad : MonoBehaviour
     
     public class PlayerData
     {
-        public Vector3 position;
+        
         public string SaveName;
     }
     
@@ -16,7 +16,7 @@ public class SaveLoad : MonoBehaviour
     public TMP_Text saveText;
     public TMP_InputField saveNameInput;
 
-    public Transform PlayerTransform;
+    
 
     public void Start()
     {
@@ -46,7 +46,7 @@ public class SaveLoad : MonoBehaviour
             var saveSlotJSON = PlayerPrefs.GetString("SaveSlotOne");
             var saveSlot = JsonUtility.FromJson<PlayerData>(saveSlotJSON);
             saveText.text = saveSlot.SaveName;
-            PlayerTransform.position = saveSlot.position;
+            
         }
     }
 
@@ -57,7 +57,7 @@ public class SaveLoad : MonoBehaviour
             // PlayerPrefs.SetString("SaveName", saveNameInput.text); //las comillas es el nombre de la variable para guardar el texto
             var saveSlot = new PlayerData()
             {
-                position = PlayerTransform.position,
+                
                 SaveName = saveNameInput.text,
             };
             var saveSlotJSON = JsonUtility.ToJson(saveSlot);

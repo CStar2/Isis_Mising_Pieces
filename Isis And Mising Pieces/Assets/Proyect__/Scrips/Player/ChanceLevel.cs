@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEditor.Rendering;
 using UnityEngine;
 using UnityEngine.SocialPlatforms.Impl;
@@ -12,6 +13,9 @@ public class ChanceLevel : MonoBehaviour
     [SerializeField] private GameObject MessageYes;
     [SerializeField] private GameObject MessageNo;
 
+    [SerializeField] private GameObject boat;
+    //SerializeField] private GameObject clickhere;
+
     [SerializeField] private int si;
     [SerializeField] private int no;
 
@@ -23,6 +27,19 @@ public class ChanceLevel : MonoBehaviour
     private void Update()
     {
         if (isPlayerNear)
+        {
+            boat.SetActive(true);
+            //clickhere.SetActive(true);
+
+        }
+        else if (!isPlayerNear)
+        {
+            boat.SetActive(false);
+            //clickhere.SetActive(false);
+        }
+
+        
+        if (isPlayerNear && Input.GetButtonDown("Fire1"))
         {
             wadodo();
         }

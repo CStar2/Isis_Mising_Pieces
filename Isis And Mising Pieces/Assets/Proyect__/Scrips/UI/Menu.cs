@@ -46,6 +46,8 @@ public class Menu : MonoBehaviour
         GameData.SetActive(false);
     }
 
+  
+
     private void QuitGame()
     {
         Application.Quit();
