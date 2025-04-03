@@ -7,16 +7,12 @@ public class PlayerInputHandler : InputHandler
         OnInput?.Invoke(new Vector2 (Input.GetAxis("Horizontal"), Input.GetAxis("Vertical")));
 
         //Fire1 es el click del mouse
-        if (Input.GetButtonDown("Fire1"))
+        if (Input.GetKey(KeyCode.Space))
         {
             OnShoot?.Invoke();
-            Debug.Log("Shoot1. Desde el jugador");
+            Debug.Log("Spell. Desde el jugador");
         }
-        if (Input.GetButtonDown("Fire2"))
-        {
-            OnThrowMachete?.Invoke();
-           
-        }
+        
         
 
     }
